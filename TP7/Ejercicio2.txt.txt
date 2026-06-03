@@ -1,0 +1,26 @@
+linea = " mara ; programacion ; 8 "
+
+partes = linea.split(";")
+nombre = partes[0].strip().capitalize()
+materia = partes[1].strip().capitalize()
+nota_texto = partes[2].strip()
+
+if nota_texto.isnumeric():
+    nota = int(nota_texto)
+    print(f"{nombre} cursa {materia} y obtuvo {nota}")
+else:
+    print("La nota no es valida")
+
+1) En "partes" queda guardada una lista del texto "linea", además cada termino de la 
+    lista sera el texto partido por el punto y coma (;) :
+    partes = [' mara',' programacion ',' 8 ']
+
+2) Se utiliza primero strip(), para evitar que capitalize() ponga en mayúsculas el espacio que hay en el primer valor de la lista "partes", el espacio que para nosotros es invisible pero la computadora interpreta como n\.
+
+3) Se esta validando el dato "8" en la variable nota_texto, esto confirma si el valor de nota_texto es un valor numerico del 0 al 9, lo que evita errores si es ingresado un dato no numerico.
+
+4) Lo que sucede si en lugar de "8" se coloca "ocho", es que el programa imprimira "La nota no es valida), ya que isnumeric() valida si un dato es numerico. en este caso la condicion de que sea numerico no se cumple por lo que se imprime que lo ingresado no es valido ya que es otro tipo de dato pero no numerico
+
+explicacion:
+
+Este programa sirve para evaluar la nota materia de determinada persona. Primero en "partes" queda guardada una lista del texto "linea", ademas cada termino de la lista sera el texto partido por el punto y coma(;),(partes = [' mara',' programacion ',' 8 ']). Luego he de destacar que se utiliza primero strip(), para evitar que capitalize() ponga en mayusculas el espacio que hay en el primer valor de la lista "partes", espacio que la computadora intepreta como n\. Luego se valida el dato 8 en la variable nota_texto. Esto confirma si el valor de nota_texto es un valor numerico del 0 al 9, lo que evita errores si es ingresado un dato no numerico, por ejemplo en el caso de que en lugar de ingresar 8 se ingresa "ocho", el programa imprimira "La nota no es valida" para dennotar que se ingreso un tipo de dato incorrecto, en este caso un dato str.

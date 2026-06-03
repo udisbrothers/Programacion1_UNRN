@@ -1,0 +1,7 @@
+1) Es importante validar los datos que ingresa el usuario, para que el programa corra y funcione de manera esperada, mediante lecturas exactas sin margen a malas interpretaciones evitando que el usuario lo rompa accidental o intencionalmente.
+
+2) La diferencia entre el STRIP y el SPLIT, es que el STRIP se utiliza para eliminar algún carácter que se indique en específico, el mismo es eliminado solo si se encuentra al principio y al final de una cadena. Por otro lado, el SPLIT separa la cadena de caracteres en una lista. Para separar la cadena se debe indicar el carácter que separara la cadena, como los puntos (.), comas (,) u otro en particular.
+
+3) El COUNT sirve para contar cuantas veces aparece un carácter especifico en un texto.
+
+4) generalmente lo que ocurre cuando hay espacio de mas es que se producen errores, ya que mientras nosotros no vemos el espacio, la computadora lo interpreta como un carácter mas..
