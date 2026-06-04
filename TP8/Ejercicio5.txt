@@ -1,0 +1,9 @@
+1) El programa primero define 2 funciones que constan de limpiar(texto) y es_valido(nombre). Luego dada una lista el programa recorre la misma y verifica si los nombres son validos, si los mismos son validos entonces los agrega limpios a una lista de nombres validos.
+
+2) La funcion limpiar(texto) devuelve la variable texto sin posibles espacios al inicio y/o final y ademas lo devuelve todas las letras minusculas excepto la primera que la convierte en mayuscula.
+
+3) La funcion es_valido(nombre) primero verifica la cantidad de elementos en una lista dada, si la misma tiene 3 o mas eleentos devuelve True y de lo contrario False.
+
+4) Los nombres que quedan guardados son:  "Bart", "Ed","Walter","Rick"
+
+5) El programa termina imprimiendo la lista "validos", o sea ["Bart","Ed","Walter","Rick"]

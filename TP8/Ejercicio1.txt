@@ -1,0 +1,18 @@
+Una lista es una serie de elementos que se guardan en un orden determinado. Los elementos pueden repetirse y se pueden modificar, agregar o eliminar después de crear la lista, a diferencia de una tupla no e puede modificar. Luego el conjunto es una serie de elementos que no admite duplicados, pero sí se puede modificar. Por ultimo el diccionario es una serie de elementos con carácter clave-valor lo que significa que cada elemento dentro del mismo tiene una llave asociada, destacándose por admitir duplicados en los valores pero no en las llaves. En resumen de diferencias... La lista es mutable mientras que la tupla no, ademas el set no tiene orden al igual que los diccionarios, ya que no podes pedir un elemento mediante indice. El set no admite duplicados mientras que el resto sí excpeto en las llaves de los diccionarios.
+
+Lista_notas = [4,7,4,9]
+puede resultar util por ejemplo para guardar las notas de un alumno donde las mismas pueden cambiar y pueden estar duplicadas.
+
+tupla_nro = tuple((range(0,101))
+Esto puede resultar util para generar una tupla de números de 0 a 100 donde no quiero que algo pueda cambiar.
+
+Set_ejemplo = {"Matematica", "Fisica","Algebra"}
+Esto puede resultar util para tener un conjunto de elementos como las materias a dictaminar, ya que un set no tiene un orden especifico ni admite duplicados
+
+diccionario_ejemplo = {
+    "nombre": "Juan",
+    "edad": 20,
+    "carrera": "Ingeniería"
+}
+Esto puede resultar util por ejemplo para poder almacenar los datos de un alumno donde se almacenan mediante clave valor
+
